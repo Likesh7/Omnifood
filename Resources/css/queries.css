@@ -58,7 +58,7 @@
         margin: 0 0 4% 0;
     }
 
-    /* .main-nav { display: none; } */
+     .main-nav { display: none; } 
 
     .mobile-nav-icon {
         display: inline-block;
@@ -117,9 +117,13 @@
     .works-step { margin-bottom: 20px;  }
     .works-step:last-of-type { margin-bottom: 20px; }
 
-    .hiro-text-box {
-         top: 65%;
+
+/*
+    nav .row {
+         margin-bottom: 65%;
     }
+*/
+
 
 
 }
@@ -135,12 +139,19 @@
         
     }
     
+/*
     header {
         height: 150vh;
     }
+*/
 
-    .hiro-text-box {
-        top: 100%;
-   }
+/*
+    nav .row {
+        margin-bottom: 100%;
+    }
+*/
+
+    
+
 
 }
