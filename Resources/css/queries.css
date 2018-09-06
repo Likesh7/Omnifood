@@ -118,14 +118,6 @@
     .works-step:last-of-type { margin-bottom: 20px; }
 
 
-/*
-    nav .row {
-         margin-bottom: 65%;
-    }
-*/
-
-
-
 }
 
 /* Small phones: from 0 to 480px */
@@ -139,19 +131,27 @@
         
     }
     
-/*
-    header {
-        height: 150vh;
-    }
-*/
-
-/*
-    nav .row {
-        margin-bottom: 100%;
-    }
-*/
-
-    
-
 
 }
+
+/* orientation : landscape */
+
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 860px) 
+                   and (orientation: landscape) {
+    
+    header {
+        height: 165vh;
+    } 
+    
+    .hiro-text-box {
+        margin-top: 130px;            
+    }                 
+}
+
+
+
+
+
+
+
